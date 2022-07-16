@@ -14,6 +14,3 @@ def b():
 q1=Process(target=a)
 q2=Process(target=b)
 q1.start()
-q2.start()
-q1.join()
-q2.join()
